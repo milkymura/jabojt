@@ -15,6 +15,23 @@ a{
 	}
 
 .namefont{
-	font-size: 20px;
+	font-size: 120px;
 	font-family: 'Exo', sans-serif;	
+	color:#ffba00;
+}
+
+.namefontIAM{
+	font-size: 30px;
+	color:white;
+	font-family: 'Exo', sans-serif;	
+}
+
+@media screen and (max-width: 700px){
+	.namefont{
+		font-size: 80px;		
+	}
+
+	.namefontIAM{
+	font-size: 20px;
+	}
 }
